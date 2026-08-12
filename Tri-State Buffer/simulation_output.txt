@@ -1,0 +1,11 @@
+Tri-State Buffer Simulation
+
+Time=0  | A=0 | Enable=1 | Y=0
+Time=10 | A=1 | Enable=1 | Y=1
+Time=20 | A=0 | Enable=0 | Y=z
+Time=30 | A=1 | Enable=0 | Y=z
+Time=40 | A=1 | Enable=1 | Y=1
+
+Result:
+Enable = 1 -> Y follows A
+Enable = 0 -> Y = High Impedance (Z)
